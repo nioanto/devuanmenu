@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.mate.panel.applet.DevuanMenuAppletFactory
+Exec=/usr/lib/linuxdevuan/devuanMenu/devuanMenu.py

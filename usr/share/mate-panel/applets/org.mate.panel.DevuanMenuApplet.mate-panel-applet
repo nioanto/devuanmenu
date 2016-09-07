@@ -1,0 +1,13 @@
+[Applet Factory]
+Id=DevuanMenuAppletFactory
+InProcess=false
+Location=/usr/lib/devuan/devuanMenu/devuanMenu.py
+Name=DevuanMenu Applet Factory
+Description=Advanced Menu
+
+[DevuanMenuApplet]
+Name=devuanMenu
+Description=Advanced Menu
+Icon=devuanmenu
+MateComponentId=OAFIID:MATE_DevuanMenuApplet;
+

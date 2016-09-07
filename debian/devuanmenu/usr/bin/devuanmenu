@@ -1,0 +1,20 @@
+#!/usr/bin/python2
+
+import sys, os
+
+if len(sys.argv) > 1:
+    if (sys.argv[1] in ["help", "h", "-?", "--help", "-h", "?"]):
+        print "devuanMenu - the advanced MATE menu\n"
+        print "options:"
+        print "  [--]help,  [-]h                    Display this help."
+        print "  [--]clean, [--]clear, [--]reset    Restore settings to default.\n"
+    elif (sys.argv[1] in ["clean", "clear", "reset", "--clean", "--clear", "--reset"]):
+        os.system("gsettings reset-recursively com.devuan.devuanmenu")
+        os.system("gsettings reset-recursively com.devuan.devuanmenu.plugins.places")
+        os.system("gsettings reset-recursively com.devuan.devuanmenu.plugins.applications")
+        os.system("gsettings reset-recursively com.devuan.devuanmenu.plugins.recent")
+        os.system("gsettings reset-recursively com.devuan.devuanmenu.plugins.system_management")
+        os.system("rm -rf ~/.devuan/devuanMenu")
+        print "All devuanMenu settings are now restored to default"
+else:
+    os.system("/usr/lib/devuan/devuanMenu/devuanMenu.py")

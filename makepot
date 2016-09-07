@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xgettext --language=Python --keyword=_ --output=devuanmenu.pot usr/lib/devuan/devuanMenu/devuanMenu.py usr/lib/devuan/devuanMenu/devuanMenuConfig.py usr/lib/devuan/devuanMenu/keybinding.py usr/lib/devuan/devuanMenu/plugins/recent.py usr/lib/devuan/devuanMenu/plugins/applications.py usr/lib/devuan/devuanMenu/plugins/system_management.py usr/lib/devuan/devuanMenu/plugins/places.py
+

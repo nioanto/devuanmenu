@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo rm -rf /usr/lib/devuan/devuanMenu
+sudo cp -R usr /
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+
+mate-terminal --maximize -e /usr/lib/devuan/devuanMenu/devuanMenu.py
+
+mate-panel-test-applets --iid DevuanMenuAppletFactory::DevuanMenuApplet

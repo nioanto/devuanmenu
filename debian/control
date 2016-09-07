@@ -1,0 +1,25 @@
+Source: devuanmenu
+Section: admin
+Priority: optional
+Maintainer: Anto Fox <nioanto@live.it>
+Build-Depends: debhelper (>= 9), python
+Standards-Version: 3.9.5
+
+Package: devuanmenu
+Architecture: all
+Depends:
+ ${python:Depends},
+ ${misc:Depends},
+ python (>= 2.4), python (<< 3),
+ python-gtk2, python-glade2,
+ devuan-common,
+ python-mate-menu, python-xdg, xdg-utils,
+ libmatepanelapplet, libmatedesktop,
+ mate-menus,
+ gvfs-bin,
+ python-xlib,
+ gir1.2-mate-panel, gir1.2-gtk-2.0,
+ mozo
+Description: Advanced MATE menu
+ One of the most advanced menus under Linux. DevuanMenu supports filtering,
+ favorites, easy-uninstallation, autosession, and many other features.
