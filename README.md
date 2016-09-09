@@ -1,5 +1,7 @@
 # devuanmenu
-<p>Devuanmenu is advanced menu for mate</p>
+<p>**Devuanmenu is advanced menu for mate</p>
+
+
 
 ##Install
 
@@ -7,7 +9,7 @@
  * python 
  * python-gtk2
  * python-glade2
-* *devuan-common**
+ * devuan-common
  * python-mate-menu
  * python-xdg, xdg-utils,
  * libmatepanelapplet
@@ -20,4 +22,5 @@
  * mozo
 
 
-dpkg-buildpackage 
+**dpkg-buildpackage**
+This commanf will generate a debian
