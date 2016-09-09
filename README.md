@@ -1,5 +1,5 @@
 # devuanmenu
-<p>*Devuanmenu is advanced menu for mate*</p>
+<p>_Devuanmenu is advanced menu for mate_</p>
 
 
 
