@@ -1,11 +1,11 @@
 # devuanmenu
-<p>**Devuanmenu is advanced menu for mate**</p>
+<p>*Devuanmenu is advanced menu for mate*</p>
 
 
 
 ##Install
 
- * python* 
+ * python 
  * python 
  * python-gtk2
  * python-glade2
