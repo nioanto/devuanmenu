@@ -1,5 +1,5 @@
 # devuanmenu
-<p>_Devuanmenu is advanced menu for mate_</p>
+<p>Devuanmenu is advanced menu for mate</p>
 
 
 
@@ -23,4 +23,4 @@
 
 
 **dpkg-buildpackage**
-This commanf will generate a debian
+This command will generate a debian package
